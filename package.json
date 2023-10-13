@@ -1,0 +1,22 @@
+{
+  "name": "com.iron-mountain.input-graphics",
+  "version": "1.0.0",
+  "displayName": "Input Graphics",
+  "description": "A library of graphics for all types of controllers",
+  "unity": "2019.1",
+  "keywords": [
+    "resources",
+    "tools"
+  ],
+  "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
+  "type": "tool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iron-Mountain-Software/input-utilities.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iron-Mountain-Software/input-utilities/issues"
+  },
+  "homepage": "https://github.com/Iron-Mountain-Software/input-utilities#readme"
+}
