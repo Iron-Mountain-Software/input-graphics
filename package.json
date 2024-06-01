@@ -1,22 +1,43 @@
 {
   "name": "com.iron-mountain.input-graphics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Input Graphics",
-  "description": "A library of graphics for all types of controllers",
+  "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
   "unity": "2019.1",
+  "type": "tool",
+  "license": "MIT",
+  "homepage": "https://github.com/Iron-Mountain-Software/input-graphics#readme",
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/Iron-Mountain-Software/input-graphics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iron-Mountain-Software/input-graphics.git"
+  },
+  "description": "A tool for depicting graphics of all types of controllers.\n\nNO CODING REQUIRED\n\nThere are an absurd number of input methods, but this package makes it easier to use and depict many of them.",
+  "useCases": [
+    "Dynamically depict images of KeyCode inputs. ",
+    "Graphic source files for many more input methods. "
+  ],
+  "directions": "1. Create a KeyCodeGraphics Scriptable Object, or use one of the defaults (light or dark).\n2. Add a KeyCodeImage component to a GameObject with an Image component.\n3. Connect a KeyCodeGraphics object to the KeyCodeImage's Graphics field. \n4. The KeyCodeImage will update the image's sprite according to its KeyCode field.",
   "keywords": [
     "resources",
     "tools"
   ],
-  "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
-  "type": "tool",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Iron-Mountain-Software/input-utilities.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Iron-Mountain-Software/input-utilities/issues"
-  },
-  "homepage": "https://github.com/Iron-Mountain-Software/input-utilities#readme"
+  "sources": [
+    {
+      "type": "git",
+      "url": "https://github.com/Iron-Mountain-Software/input-graphics"
+    },
+    {
+      "type": "itch.io",
+      "url": "https://iron-mountain.itch.io/input-graphics"
+    },
+    {
+      "type": "npm",
+      "url": "https://www.npmjs.com/package/com.iron-mountain.input-graphics"
+    }
+  ],
+  "dependencies": {}
 }
